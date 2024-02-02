@@ -33,7 +33,7 @@ To test RRT*:
 
 **Functions from rrt.py**
 
-The ```rrt_star.py``` file uses some functions from ```rrt.py```, mainly the following ones, you can find them with comments explaining the functions in ```rrt.py```. It is advised to get familiar with them before proceeding with the completion of the code:
+The ```rrt_star.py``` file uses some functions from ```rrt.py```, mainly the following ones, you can find them with comments explaining the functions in ```rrt.py```.
 - ```steer```
 - ```check_collision```
 
