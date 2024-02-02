@@ -28,18 +28,6 @@ To test RRT*:
 - Watch the robot go to the specified point
 
 - Tune your RRT* parameters (e.g. circle radius ```connect_circle_dist``` to be considered, expansion distance ```expand_dist```).
-- Plot containing the virtual obstacles, the obtained path (optionally the entire RRT* tree), clearly marking the starting and goal positions. Overlay the generated path with the executed path. To plot the covariances as ellipses (see Appendix). 
-
-* Section 1 - Stack: the description and discussion of the stack (see Part 1), max 500 words.
-* Section 2 - RRT* implementation: 
-  * Describe how th provided RRT* works and which modifications you implemented.
-  * Describe how you integrated the path planning and navigation for the robot from the planner to the actual motions of the robot (you do not need to describe the entire stack again as you should have done this in Part 1), including the implementation of path smoothing.
-* Section 3 - Testing: 
-  * Report figures as specified in Part 3.
-  * Discuss how you tuned your RRT* parameters to reach the final parameters you used for the plots.
-  * Discuss the performance of your RRT*.
-* Section 4 - Final discussions:
-  * Discuss the overall performance of your entire stack, i.e. including your PID controller, EKF, and RRT* planner.
 
 ## Appendix
 
