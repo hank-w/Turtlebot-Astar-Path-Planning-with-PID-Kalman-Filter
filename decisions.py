@@ -12,9 +12,6 @@ from nav_msgs.msg import Odometry as odom
 
 from localization import localization, kalmanFilter
 
-
-# The final exam is only about testing the rrt_star, though you can work with the 
-# rrt itself too and observe the difference. 
 from planner import A_STAR_PLANNER, RRT_PLANNER, RRT_STAR_PLANNER, POINT_PLANNER, planner
 from controller import controller, trajectoryController
 
@@ -66,7 +63,7 @@ class decision_maker(Node):
 
         print("waiting for your input position, use 2D nav goal in rviz2")
 
-        # hint: if you set the self.goal in here, you can bypass the rviz goal selector
+        # if you set the self.goal in here, you can bypass the rviz goal selector
         # this can be useful if you don't want to use the map
         # self.goal = [7.0,8.0]
     
