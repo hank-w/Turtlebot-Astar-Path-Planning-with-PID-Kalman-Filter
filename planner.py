@@ -10,7 +10,7 @@ import rclpy
 POINT_PLANNER=0; A_STAR_PLANNER=1; RRT_PLANNER=2; RRT_STAR_PLANNER=3
 
 
-# TODO Modify this class so that is uses the RRT* planner with virtual obstacles
+#  Modify this class so that is uses the RRT* planner with virtual obstacles
 
 class planner:
     def __init__(self, type_, mapName="room"):
@@ -66,7 +66,7 @@ class planner:
     ]  # [x,y,size(radius)]
         
         
-        #TODO Remember to initialize the rrt_star
+        # Remember to initialize the rrt_star
 
         self.rrtStar = RRTStar(
         start=self.startPose,
@@ -112,7 +112,7 @@ class planner:
 
         # mazeOrigin = self.m_utilites.position_2_cell([0,0])
 
-        # TODO This is for A*, modify this part to use RRT*
+        #  This is for A*, modify this part to use RRT*
         # path = search(self.costMap, startPose, endPose, scale_factor)
 
         path = self.rrtStar.planning(animation=True)
@@ -137,7 +137,7 @@ class planner:
         # path_ = [[x*scale_factor, y*scale_factor] for x,y in path ]
         # Path = np.array(list(map(self.m_utilites.cell_2_position, path_ )))
 
-        # TODO Smooth the path before returning it to the decision maker
+        #  Smooth the path before returning it to the decision maker
         # this can be in form of a function that you can put in the utilities.py 
         # or add it as a method to the original rrt.py 
         np_path = np.array(path)
