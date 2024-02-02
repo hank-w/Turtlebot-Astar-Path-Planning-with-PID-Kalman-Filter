@@ -14,7 +14,7 @@ ros2 launch turtlebot3_gazebo empty_world.launch.py
 
 To test RRT*:
 - Create a virtual map with virtual obstacles (see the RRT* code ```main``` function). This means that these obstacles will not be visualized in Gazebo nor in RViz (you can do extra work to have them visualized in RViz but this is not necessary and there are no bonus points associated).
-- Use the Extended Kalman Filter as localizer, use your tuned covariances, or tune them in simulation, we will not deduct marks for poor localization performance. 
+- Use the Extended Kalman Filter as localizer, use your tuned covariances, or tune them in simulation. 
 - Choose a goal pose: you can use the same RViz interface to choose a goal pose, or you can hard-code a goal pose.
 - Execute the path in Gazebo.
 - *Log the poses of the robot and covariances from the EKF for the plots.
