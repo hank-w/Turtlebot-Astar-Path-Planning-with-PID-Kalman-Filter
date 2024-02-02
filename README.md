@@ -1,6 +1,7 @@
 # Turtlebot-Astar-Path-Planning-with-PID-Kalman-Filter
 
 ## Introduction
+Please see the 'Turtlebot Path Planning PID Controls Research Report' file for details on the project.
 ```
 ros2 launch turtlebot3_gazebo empty_world.launch.py
 ```
