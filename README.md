@@ -54,6 +54,3 @@ $$\begin{equation}(\frac{x}{\sigma_x})^2 + (\frac{y}{\sigma_y})^2 = d \end{equat
 
 Note that ```d``` is the scale of the ellipse and can be any number, e.g. 1.
 Make sure also to orient the ellipse so that it is tangent to the path (oriented as the heading ```theta``` of the robot).
-
-# Turtlebot-Astar-Path-Planning-with-PID-Kalman-Filter
-# Turtlebot-Astar-Path-Planning-with-PID-Kalman-Filter
